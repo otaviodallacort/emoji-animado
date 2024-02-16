@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coração animado</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            height: 100vh;
+
+        }
+
+        .coracao {
+            font-size: 10rem;
+            animation: coracao .5s infinite alternate linear;
+        }
+
+        @keyframes coracao {
+            from{
+                transform: scale(.7);
+            }
+            to{
+                transform: scale(1);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="coracao">🐒</div>
+    
+</body>
+</html>
